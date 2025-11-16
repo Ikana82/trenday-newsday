@@ -21,14 +21,14 @@ export default async function Home() {
         <h1 className="text-4xl font-semibold text-center md:text-left flex-1">
           Daily New
         </h1>
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <Link
             href="/about"
             className="bg-black dark:bg-white dark:text-black text-white px-4 py-2 rounded-md hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
           >
             User Moment
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <NewsContainer news={news} />

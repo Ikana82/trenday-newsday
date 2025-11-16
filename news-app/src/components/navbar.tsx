@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav className=" shadow-sm dark:text-white text-black">
-      <div className="container mx-auto px-4 py-4 flex flex-col gap-4 bg-white md:bg-white dark:bg-white">
+      <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
         {/* Top 1 */}
         <div className="flex flex-row items-center justify-between w-full gap-4">
           <Link href="/" className="flex items-center gap-3">
