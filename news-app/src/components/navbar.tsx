@@ -9,7 +9,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-black md:bg-white dark:bg-zinc-950 shadow-sm">
+    <nav className="bg-black md:bg-white dark:bg-zinc-950 shadow-sm dark:text-white text-black">
       <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
         {/* Top 1 */}
         <div className="flex flex-row items-center justify-between w-full gap-4">

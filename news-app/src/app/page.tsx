@@ -1,6 +1,5 @@
 import NewsContainer from "@/components/news-container";
 import Link from "next/link";
-// import { News } from "@/types/type"; - jika menggunakan type.ts
 
 const fetchNews = async () => {
   const res = await fetch(
