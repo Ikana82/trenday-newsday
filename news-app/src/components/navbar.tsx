@@ -35,10 +35,10 @@ export default function Navbar() {
         </div>
 
         {/* Top Menu */}
-        <div className="w-full flex justify-between flex-wrap md:gap-2 py-2">
+        <div className="w-full flex justify-between flex-wrap md:gap-2 py-2 dark:text-white text-white">
           <Link
             href="/politic"
-            className={`px-3 py-2 font-bold hover:bg-gray-100 dark:hover:bg-zinc-900 rounded-md ${
+            className={`px-3 py-2 font-bold  hover:bg-gray-100 dark:hover:bg-zinc-900 rounded-md ${
               pathname === "/politic"
                 ? "border-b-2 border-white rounded-b-none"
                 : ""
