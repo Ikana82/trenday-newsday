@@ -9,8 +9,8 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-black md:bg-white dark:bg-zinc-950 shadow-sm dark:text-white text-black">
-      <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
+    <nav className=" shadow-sm dark:text-white text-black">
+      <div className="container mx-auto px-4 py-4 flex flex-col gap-4 bg-white md:bg-white dark:bg-white">
         {/* Top 1 */}
         <div className="flex flex-row items-center justify-between w-full gap-4">
           <Link href="/" className="flex items-center gap-3">
@@ -35,7 +35,7 @@ export default function Navbar() {
         </div>
 
         {/* Top Menu */}
-        <div className="w-full flex justify-between flex-wrap md:gap-2 py-2 dark:text-white text-white">
+        <div className="w-full flex justify-between flex-wrap md:gap-2 py-2 dark:text-white text-black">
           <Link
             href="/politic"
             className={`px-3 py-2 font-bold  hover:bg-gray-100 dark:hover:bg-zinc-900 rounded-md ${
@@ -128,16 +128,6 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-
-      {/* <div className="container flex gap-2 mx-auto justify-between py-4">
-                <h1 className="text-2xl font-bold">News</h1>
-            <div className="flex gap-2">
-                <Link href="/" className="px-4 py-2 rounded-md font-bold hover:bg-gray-100 dark:hover:bg-zinc-900">Home</Link>
-                <Link href="/about" className="px-4 py-2 rounded-md font-bold hover:bg-gray-100 dark:hover:bg-zinc-900">About</Link>
-                <Link href="/add-client" className="px-4 py-2 rounded-md font-bold hover:bg-gray-100 dark:hover:bg-zinc-900">Add Client</Link>
-                <Link href="/add-server" className="px-4 py-2 rounded-md font-bold hover:bg-gray-100 dark:hover:bg-zinc-900">Add Server</Link>
-            </div>
-            </div> */}
     </nav>
   );
 }
