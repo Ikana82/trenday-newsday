@@ -53,7 +53,7 @@ export default function Navbar() {
       return `font-normal rounded-md transition-colors ${baseStyle} ${
         active
           ? "bg-black text-white dark:bg-white dark:text-black"
-          : "text-zinc-600 hover:bg-zinc-800/60 dark:hover:bg-zinc-800/60"
+          : "text-zinc-400 hover:bg-zinc-800/60 dark:hover:bg-zinc-800/60"
       }`;
     }
 
